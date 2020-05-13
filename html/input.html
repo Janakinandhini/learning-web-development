@@ -5,54 +5,55 @@
 </head>
 <body>
     <h1>Quiz</h1>
-    <span align="right"><input type="color" id="colorPicker"><br><br></span>
 <form>
 Please enter your name:
-<input type="text" name="username"id="quiz">
+<input type="text" name="username"id="quiz"required="required">
 <label for="DOB">Date of Birth:</label>
 <input type="date" id="DOB" name="DOB">
 <label for="email">Please enter your email:</label>
 <input type="email" id="email" name="email">
 <label for="pwd">Password</label>
-<input type="password" id="pwd" name="pwd"><br><br>
-<label for="you" align="right">Tell us about yourself:</label><br>
-<textarea name="you" rows="5" cols="20" align="right"></textarea>
+<input type="password" id="pwd" name="pwd"pattern=".{8,}"><br>
+<label for="you" align="right">Tell us about yourself:</label>
+<textarea name="you" rows="5" cols="20" maxlength="180" placeholder="Max. number of characters is 180"></textarea>&nbsp;
+
+Please upload your picture: &nbsp;<input type="file">
 <br>
-Choose the primary color</br>
+Choose the primary color<br>
 <input type="radio"  id="Green" name="Q1" value="Green">
-<label for="Q1">Green</label></br>
+<label for="Q1">Green</label><br>
 <input type="radio"  id="Yellow" name="Q1" value="Yellow">
-<label for="Q1">Yellow</label></br>
+<label for="Q1">Yellow</label><br>
 <input type="radio"  id="Purple" name="Q1" value="Purple">
-<label for="Q1">Purple</label></br>
- </br>
- What does <b>'B'</b> signifies in <b>VIBGYOR</b></br>
+<label for="Q1">Purple</label><br>
+ <br>
+ What does <b>'B'</b> signifies in <b>VIBGYOR</b><br>
 <input type="radio"  id="Black" name="Q2" value="Black">
-<label for="Q2">Black</label></br>
+<label for="Q2">Black</label><br>
 <input type="radio"  id="Beige" name="Q2" value="Beige">
-<label for="Q2">Beige</label></br>
+<label for="Q2">Beige</label><br>
 <input type="radio"  id="Blue" name="Q2" value="Blue">
-<label for="Q2">Blue</label></br></br>
-Select the Indian destinations</br>
+<label for="Q2">Blue</label><br><br>
+Select the Indian destinations<br>
 <input type="checkbox" id="Place1" name="Place1" value="Taj">
-<label for="Place1">Taj Mahal</label></br>
+<label for="Place1">Taj Mahal</label><br>
 <input type="checkbox"  id="Place2" name="Place2" value="Langkawi">
-<label for="Place2">Langkawi</label></br>
+<label for="Place2">Langkawi</label><br>
 <input type="checkbox"  id="Place3" name="Place3" value="Louvre">
-<label for="Place3">Louvre Museum</label></br>
+<label for="Place3">Louvre Museum</label><br>
 <input type="checkbox"  id="Place4" name="Place4" value="Sagar">
-<label for="Place4"> Hussain Sagar</label></br>
-</br>
+<label for="Place4"> Hussain Sagar</label><br>
+<br>
 How many teeth does a adult human have?
-<select id="Q4" name=Q4>
+<datalist id="Q4" name=Q4>
 <option value=12>12</option>
 <option value=22>22</option>
 <option value=32>32</option>
-</select>
-</br></br>
-<label for="colorPicker"> Select a color:</label></br>
-<label for="now">Enter the time of Quiz:</label></br>
-<input type="datetime-local" id="now" name="now">
+</datalist>
+<br><br>
+<label for="colorPicker"> Select a color:</label>&nbsp;
+<input type="color" id="colorPicker">
+<label for="now">Enter the time of Quiz:</label>&nbsp;<input type="datetime-local" id="now" name="now">&nbsp;&nbsp;
 <input type="submit" value="Submit">&nbsp;<input type="reset">
 
 </form>
