@@ -4,17 +4,23 @@
 </head>
 <body>
   <p>Select your score:</p>
-<form oninput="x.value=a.value*10">
+<form oninput="x.value=a.value*10;y.value=parseInt(a.value)">
   0
   <input type="range"  id="a" name="a" value="10"max="10" step=0.5>
   10<br>
   You have scored
   <output name="x" for="a"></output>%<br><br>
-  <meter min="10" max="100" value="50"></meter><br>
+  <meter id= "y" min="0" max="10"></meter><br>
     <button type="button" onclick="alert('This is just a pop-up')">Open</button>
 </form>
+<marquee><img src="hi.gif" alt= "Image">
+</marquee><br><a href="./Basics.html"target="within">
+  Basics file within this page</a><br>
+<iframe name="within"></iframe><br>
+<nav>
         <a id="Previous-Page-link" href="./input.html"> &lt;&lt;Prev </a> &nbsp;
         <a id="Home-Page-link" href="../index.html">  [Home] </a> &nbsp;
         <a id="Next-Page-link" href="../index.html"> Next &gt;&gt;</a>
-</body>
+</nav>
+      </body>
 </html>
