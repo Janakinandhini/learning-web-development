@@ -17,6 +17,15 @@
     .center{
         text-align: center;
     }
+    div p {
+        color:darkorange
+    }
+    section >p{
+        color:firebrick
+    }
+    p+nav{
+        color:lightcoral
+    }
     </style>
 </head>
 <body>
@@ -24,8 +33,16 @@
         Simple Selectors<br>
     </p>
     <p id="para2" class="center">
-        All the elements on the page with the name or id or class will be styled
+        All the elements on the page with the name or id or class will be styled.
     </p>
+    <div>
+        There are four different combinators in CSS:
+
+     <p>   descendant selector (space)- matches all elements that are descendants of a specified element</p>
+     <section><p>   child selector (>)</p>
+      <p>  adjacent sibling selector (+)</p></section>
+      <p>  general sibling selector (~)</p>
+    </div>
     <p class="center">All these are simple selectors</p>
     <nav>
             <a id="Previous-Page-link" href="./First.html"> &lt;&lt;Prev </a> &nbsp;
