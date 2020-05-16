@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pseudo-classes</title>
+<style>
+    img {
+  display: none;
+    }
+    span:hover img{
+        display: inline;
+    }
+    p::first-letter{
+        color:blueviolet;
+        font-size: large;
+    }
+    p::first-line{
+        color: orangered;
+        font-style: oblique;
+    }
+    aside[name="1"]{
+        font-weight: 300;
+        text-align:right
+    }
+
+</style>
+</head>
+<body>
+    <p>
+       Emoji-A small digital image or icon used to express an idea or emotion.
+    </p>
+    <span><h3>Happy</h3>
+    <img src="./happy.jfif" alt="smiley"></span>
+    <span><h3>Sad</h3>
+    <img src="./sad.png" alt="smiley">
+    </span>
+    <br>
+    <aside name="1">
+        Note: Attribute selector is used to<br>select elements with a specified<br> attribute and value.
+    </aside>
+
+</body>
+</html>
