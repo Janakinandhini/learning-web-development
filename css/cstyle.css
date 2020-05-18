@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(255, 0,102);
+}
+section{
+    font-size: 100px;
+    text-align: center;
+    color:whitesmoke;
+}
+div{
+    background-color: violet;
+    font-size:60px;
+}
+article{
+    background-color: palevioletred;
+    font-size: 100%;
+    text-align: left;
+    display: inline;
+}
+i{
+    color:blue;
+}
+aside{
+ float:right;
+}
+#brief{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:wheat;
+    font-size:110%;
+}
+#define{
+    font-style: italic;
+    font-family: Arial;
+    font-size: 130%;
+}
+ul{
+    font-size: x-large;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: pink;
+    color:blueviolet;
+    font-size: large;
+}
