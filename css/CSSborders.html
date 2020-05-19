@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    header{
+        text-align: center;
+        font-size: 125px;
+        font-family:fantasy;
+        color:steelblue;
+    }
+
+form{
+    border:violet solid;
+    border-radius: 4%;
+    font-family:Calibri;
+    font-size: xx-large;
+    background-color:lightpink;
+    text-align: center;
+    margin: 30px,10px;
+    padding: 10px 20px 30px 10px;
+}
+p{
+    font-style: oblique;
+    font-size: x-large;
+}
+
+input[type="button"]{
+    Background-color:aqua;
+    width:70%;
+    border-radius: 20px;
+}
+
+</style>
+</head>
+<body style="background-color:lightskyblue;">
+    <header>
+        Welcome
+    </header>
+    <p>Please register yourself with us!!</p>
+<form >
+    <label for="username">Please enter your name:</label>&nbsp;<br>
+    <input type="text" id="username" required><br>
+    <label for="email">Please enter your email:</label>&nbsp;<br>
+    <input type="email" id="email" name="email" required><br>
+    <label for="DOB">Date of Birth:</label><br>
+    <input type="date" id="DOB" name="DOB"><br>
+    <label for="pwd">Password</label>&nbsp;&nbsp;&nbsp;&nbsp;<br>
+    <input type="password" id="pwd" name="pwd"pattern=".{8,}"><br>
+<input type="button" value= "Sign up">
+</form>
+<footer>
+    <a id="Previous-Page-link" href="./external-css.html"> &lt;&lt;Prev </a> &nbsp;
+    <a id="Home-Page-link" href="./index-css.html">  [Home] </a> &nbsp;
+    <a id="Next-Page-link" href="./index-css.html"> Next &gt;&gt;</a>
+</footer>
+</body>
+</html>
