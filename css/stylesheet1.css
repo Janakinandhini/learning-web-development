@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 0,102);
+    background-color: #ff80ff;
 }
 section{
     font-size: 100px;
@@ -7,8 +7,9 @@ section{
     color:whitesmoke;
 }
 div{
-    background-color: violet;
+    background-color:#ff80aa;
     font-size:60px;
+    text-align: center;
 }
 article{
     background-color: palevioletred;
@@ -36,9 +37,13 @@ ul{
     font-size: x-large;
 }
 footer{
-    position: absolute;
-    bottom: 0;
-    background-color: pink;
-    color:blueviolet;
+    background-color: pink;}
+a{display: inline-block;
+    margin:1%;width:auto;padding: 14px 25px;
+        text-align: center;
+        background-color: lightblue;
+        text-decoration: none;}
+a:hover{
     font-size: large;
-}
+    background-color:#4db8ff;
+      }
