@@ -2,38 +2,50 @@
 <html>
 <head>
     <title>Quiz</title>
+    <style>
+        body{margin:2%;max-width: 100%;}
+        h1{text-align: center;}
+        form{display: block;border:2px solid #00aa00;
+        font-size:large;font-style: oblique;font-family:Verdana;
+        height:500px;overflow: scroll;line-height:300%}
+        .style1,textarea{display: block;}
+         a{text-decoration: none;padding: 14px 25px;text-align: center;}
+        .style2,a{display: inline-block;margin:1%;width:auto;padding: 14px 25px;
+        text-align: center;background-color: #addadd;
+        text-decoration: none;font-family: sans-serif;}
+        a:hover{font-size: large;background-color:#4db8ff;  }
+        datalist,input:focus,label:hover{border:2px solid #aa0000}
+    </style>
 </head>
 <body>
     <h1>Quiz</h1>
 <form>
 Please enter your name:
-<input type="text" name="username"id="quiz"required="required">
+<input type="text" name="username"id="quiz" class="style1" required="required">
 <label for="DOB">Date of Birth:</label>
-<input type="date" id="DOB" name="DOB">
+<input type="date" id="DOB" name="DOB" class="style1">
 <label for="email">Please enter your email:</label>
-<input type="email" id="email" name="email">
+<input type="email" id="email" name="email" class="style1">
 <label for="pwd">Password</label>
-<input type="password" id="pwd" name="pwd"pattern=".{8,}"><br>
+<input type="password" id="pwd" class="style1" name="pwd"pattern=".{8,}">
 <label for="you" align="right">Tell us about yourself:</label>
-<textarea name="you" rows="5" cols="20" maxlength="180" placeholder="Max. number of characters is 180"></textarea>&nbsp;
-
-Please upload your picture: &nbsp;<input type="file">
-<br>
-Choose the primary color<br>
+<textarea name="you" rows="5" cols="20" maxlength="180"
+placeholder="Max. no. of characters is 180"></textarea>&nbsp;
+Please upload your picture: &nbsp;<input type="file" class="style1">
+Choose the primary color:
 <input type="radio"  id="Green" name="Q1" value="Green">
-<label for="Q1">Green</label><br>
+<label for="Q1">Green</label>
 <input type="radio"  id="Yellow" name="Q1" value="Yellow">
-<label for="Q1">Yellow</label><br>
+<label for="Q1">Yellow</label>
 <input type="radio"  id="Purple" name="Q1" value="Purple">
-<label for="Q1">Purple</label><br>
- <br>
+<label for="Q1">Purple</label></br>
  What does <b>'B'</b> signifies in <b>VIBGYOR</b><br>
 <input type="radio"  id="Black" name="Q2" value="Black">
 <label for="Q2">Black</label><br>
 <input type="radio"  id="Beige" name="Q2" value="Beige">
 <label for="Q2">Beige</label><br>
 <input type="radio"  id="Blue" name="Q2" value="Blue">
-<label for="Q2">Blue</label><br><br>
+<label for="Q2">Blue</label><br>
 Select the Indian destinations<br>
 <input type="checkbox" id="Place1" name="Place1" value="Taj">
 <label for="Place1">Taj Mahal</label><br>
@@ -43,24 +55,25 @@ Select the Indian destinations<br>
 <label for="Place3">Louvre Museum</label><br>
 <input type="checkbox"  id="Place4" name="Place4" value="Sagar">
 <label for="Place4"> Hussain Sagar</label><br>
-<br>
 How many teeth does a adult human have?
+<input list="Q4">
 <datalist id="Q4" name=Q4>
 <option value=12>12</option>
 <option value=22>22</option>
 <option value=32>32</option>
 </datalist>
-<br><br>
+<br>
 <label for="colorPicker"> Select a color:</label>&nbsp;
-<input type="color" id="colorPicker">
-<label for="now">Enter the time of Quiz:</label>&nbsp;<input type="datetime-local" id="now" name="now">&nbsp;&nbsp;
-<input type="submit" value="Submit">&nbsp;<input type="reset">
-
+<input type="color" id="colorPicker"class="style1">
+<label for="now">Enter the time of Quiz:</label>&nbsp;
+<input type="datetime-local" id="now" name="now">&nbsp;&nbsp;
+<input type="submit" value="Submit"class="style2">
+<input class="style2" type="reset">
 </form>
-<div>
+<nav>
         <a id="Previous-Page-link" href="./semantic-elements.html"> &lt;&lt;Prev </a> &nbsp;
         <a id="Home-Page-link" href="./index-html.html">  [Home] </a> &nbsp;
         <a id="Next-Page-link" href="./form.html"> Next &gt;&gt;</a>
-</div>
+</nav>
 </body>
 </html>
