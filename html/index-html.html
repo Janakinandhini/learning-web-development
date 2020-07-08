@@ -4,17 +4,21 @@
     <head>
         <title>HTML Index</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bellota">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <style>
+            li{margin:auto;padding:10px;}
             header{text-align: center;font-weight: bolder;}
-            #pages{
-                font-family: Bellota;
+            #pages{font-family: Bellota;
                 display:block-inline;
                 padding: 1%;
-                margin:10px 20px;            }
-            a:hover{text-transform:uppercase;color:#0000ff;}
+                margin:10px 20px; }
+            li>a:hover{text-transform:uppercase;color:#0000ff;}
             li,a{font-size:xx-large;
                 color:#a11111;
                 text-decoration: none;}
+            input[type=search],select{width: 25%;padding: 12px 20px;margin: 8px 0;
+            height:40px; display: inline-block; border: 1px solid #858585;
+            border-radius: 4px;}
         </style>
     </head>
     <body>
@@ -29,7 +33,9 @@
                 <li> <a id="Input elements" href="./input.html" >Input Elements</a></li>
                 <li> <a id="form-elements" href="./form.html" >Form Elements</a></li>
             </ol>
-            Enter the search text:<input type="search">
+            <input type="search">
+            <button type="submit">
+            <i class='material-icons'style="font-size:24px;">search</i></button>
             <nav><a id="main" href="../index.html">&lt;&lt;Back</a></nav>
     </body>
 </html>
