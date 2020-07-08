@@ -3,45 +3,30 @@
 <head>
 <title>Pseudo-classes</title>
 <style>
-    img {
-  display: none;
-    }
-    span:hover img{
-        display: inline;
-    }
-    p::first-letter{
-        color:blueviolet;
-        font-size: large;
-    }
-    p::first-line{
-        color: orangered;
-        font-style: oblique;
-    }
-    aside[name="1"]{
-        font-weight: 300;
-        text-align:right
-    }
+    body{ margin:5%;width: auto; padding:5%; border:4px solid #099000;}
+    p{margin:auto; font-size: 50px; }
+    img {display: none; }
+    #happy,#sad{font-size: 60px; font-style: italic;
+    color:#0ff0e0}
+    span:hover img{display: block;}
+    p::first-letter{color:#8a2be2; font-family: Courier;
+        font-size: larger;}
     a{display: inline-block;
-      margin:1%;
-      width:auto;
-      padding: 14px 25px;
-      text-align: center;
-      background-color: lightblue;
-      text-decoration: none;   }
-    a:hover{
-      background-color:blue;
-    }
+      margin:1%; width:auto;
+      padding: 14px 25px;text-align: center;
+      background-color: #add8e6;
+      text-decoration: none;}
+    a:hover{background-color:#0000ff; }
 </style>
 </head>
 <body>
     <p>
-       Emoji-A small digital image or icon used to express an idea or emotion.
-    </p>
-    <span><h3>Happy</h3>
-    <img src="./happy.jfif" alt="smiley"></span>
-    <span><h3>Sad</h3>
-    <img src="./sad.png" alt="smiley">
-    </span>
+        Poetry is when an emotion has found its thought and the thought has found words. <br>
+        <span id="who">-Robert Frost</span>
+    </p><br>
+    <p>It's not about forcing <span id="happy">happiness<img src="./happy.jfif" alt="smiley"></span>
+        , it's about not letting the <span id="sad">sadness <img src="./sad.png" alt="smiley"></span>win.</p>
+
     <br>
     <footer>
         <a id="Previous-Page-link" href="./selectors.html"> &lt;&lt;Prev </a> &nbsp;
