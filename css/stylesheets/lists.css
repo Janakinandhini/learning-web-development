@@ -1,0 +1,50 @@
+        h2 {
+            text-align: center;
+        }
+
+        ul {
+            list-style: inside url('../img/Flag.jpg');
+            font: 20px cursive;
+            padding: 0 20%;
+            max-height: 200px;
+            max-width: 350px;
+            overflow: auto;
+        }
+
+        ul>li {
+            padding: 5px;
+        }
+
+        ol {
+            font-family: 'Trebuchet MS';
+            padding: 0 20%;
+            font-size: 20px;
+            list-style-type: upper-roman;
+            max-height: 120px;
+            max-width: 350px;
+            overflow: auto;
+        }
+
+        ol>li {
+            padding: 10px;
+        }
+
+        nav {
+            margin: auto;
+            padding: 80px 0px 1px;
+        }
+
+        a {
+            display: inline-block;
+            margin: 1%;
+            width: auto;
+            padding: 15px 25px;
+            text-align: center;
+            background-color: lightblue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            font-size: large;
+            background-color: #4db8ff;
+        }
