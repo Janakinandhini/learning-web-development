@@ -1,0 +1,35 @@
+p{
+    color: #8a2be2;
+}
+#para2{
+    color:#0fffff;
+    font-size: 130%
+}
+#para3{
+    font-size: 180px;
+}
+.center{
+    text-align: center;
+}
+div p {
+    color:#ff8c00;
+}
+section >p{
+    color:#c22222
+}
+p+nav{
+    margin:10%;
+    width:auto;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+a{
+    display: inline-block;
+    background-color:#abebeb;
+    padding:1%;
+}
+a:hover{
+    background-color: #0000ff;
+    font-style: italic;
+    color:#abebeb}

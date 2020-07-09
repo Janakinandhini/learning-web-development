@@ -1,0 +1,37 @@
+body {
+    width: auto;
+    margin: 2%;
+    padding: 0.5%;
+    text-align: center;
+    border: solid purple 5px;
+    font: 30px Dekko;
+    color: darkorchid;
+    text-align: left;
+    line-height: 1.2;
+}
+
+#p1 {
+    text-indent: 10%;
+}
+
+nav {
+    width: 20%;
+    border: solid blueviolet 3px;
+    padding: 2%;
+    font-style: italic;
+    font-family: initial;
+    font-size: medium;
+    display: inline-block;
+}
+
+a {
+    text-align: center;
+    padding: 3%;
+    background-color: lightblue;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: large;
+    background-color: #4db8ff;
+}
