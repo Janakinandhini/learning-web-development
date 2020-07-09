@@ -1,0 +1,25 @@
+span{
+    background-color: #ff00ff;
+    margin:30px;
+    font-size:x-large;
+    padding:5%;
+    display: inline-block;
+    max-height: 50px;
+    color: #000000;}
+span:hover{
+    font-weight: bolder;
+    font-style:italic;
+    color:#663399;
+    }
+footer>a{
+    text-decoration: none;
+    background-color:#addeff;
+    font-style:oblique;
+    padding:1%;
+    }
+a:hover{
+    font-size:20px;
+    display: inline-block;
+    color:#ffffff;
+    background-color: #000fff;
+    }
