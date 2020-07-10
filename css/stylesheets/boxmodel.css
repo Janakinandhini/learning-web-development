@@ -1,45 +1,53 @@
-
-#head{
-    width:auto;
-    margin:3%;
-    padding:5%;
+#head {
+    width: auto;
+    margin: 3%;
+    padding: 5%;
     text-align: center;
-    border:solid purple 5px;
-    font-family:'Lucida Sans';
+    border: solid #800080 5px;
+    font-family: 'Lucida Sans';
     font-weight: bold;
-    color:darkorchid;
+    color: #9932cc;
     font-style: oblique;
 }
-#para{
-    width:auto;
-    border:solid brown 4px;
-    margin:3%;
-    padding:3%;
-    color: yellowgreen;
+
+#para {
+    width: auto;
+    border: solid #a52a2a 4px;
+    margin: 3%;
+    padding: 3%;
+    color: #9acd32;
     font-family: sans-serif;
 }
-nav{
-    width:auto;
-    margin:1%;
-    padding:1%;
-    border:solid blueviolet 3px;
+
+nav {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
     font-style: italic;
 }
-.p2{
-    width:auto;
-    margin:1%;
-    padding:3%;
-    border: solid purple 2px;
+
+.p2 {
+    width: auto;
+    margin: 1%;
+    padding: 3%;
+    border: solid #800080 2px;
     display: block;
     font-family: Verdana;
     font-size: x-large;
 }
 
-a{display: inline-block;
-  margin:1%;width:auto;padding: 14px 25px;
+a {
+    display: inline-block;
+    margin: 0;
+    width: auto;
+    padding: 14px 25px;
     text-align: center;
-    background-color: lightblue;
-    text-decoration: none;}
-a:hover{
-    font-size: large;
-    background-color:#4db8ff;  }
+    color: #ffffff;
+    font: 30px Arial;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #4db8ff;
+}
