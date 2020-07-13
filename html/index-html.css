@@ -46,6 +46,6 @@ nav {
     padding:0;
     background-color: #000000;
 }
-a:hover {
+a[target="_blank"]:hover {
     background-color: #008000;
 }
