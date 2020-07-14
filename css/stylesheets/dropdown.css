@@ -1,8 +1,8 @@
-#button{
+#imgbutton{
     display: inline-block;
-    margin: 25px;
+    margin: 75px;
     width: auto;
-    padding: 0px 250px;
+    padding: 20px 20px 0px 200px;
 }
 #dropdown {
     display: none;
@@ -11,12 +11,33 @@
     display: block;
     color: #050295;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     text-align:center;
+    padding: 0px 10px 8px;
+    font-style: oblique;
 }
-#button:hover #dropdown{
-    display: block;
+#imgbutton:hover #dropdown{
+    display: inline-block;
 }
 #dropdown a:hover{
     background-color: #cecece;
 }
+
+nav {
+    padding: 0 37%;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 1%;
+    width: auto;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #add8e6;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: #ffffff;
+    background-color: #4d00ff;
+  }
