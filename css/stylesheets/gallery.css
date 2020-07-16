@@ -1,17 +1,18 @@
-body {
-    max-height: 50px;
-}
-
-div {
+div.flower{
     margin: 5px;
-    width: 200px;
-    display: inline-block;
+    float:left;
+    width: 180px;
     border: 1px solid #dddddd;
+    max-height:50%;
 }
-
+div.flower > a {
+    height: 125px;
+    display: block;
+    overflow: hidden;
+}
 div img {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 div:hover {
@@ -21,17 +22,31 @@ div:hover {
 p {
     text-align: center;
     font: 25px bolder oblique cursive;
-    padding: 10px 20px;
+    padding: 5px;
 }
 
-nav{
-    margin: 1%;
-    padding: 0 40%;
+#nav li{
+    list-style: none;
+    position: absolute;
+    bottom:2%;
+    }
+#nav li, #nav a{
+    display: block;
+    height: 44px;
+    }
+#Prev{
+    left:25%;
+    width:42px;
+    background: url('../img/img_navsprites.gif') -48px 0;
 }
-nav a{
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    text-align: center;
-    background-color: #abebeb;
+
+#Home{
+    left:50%;
+    width:46px;
+    background: url('../img/img_navsprites.gif') 0 0;
+ }
+#Next{
+    left:75%;
+    width:43px;
+    background: url('../img/img_navsprites.gif')-91px 0;
 }
