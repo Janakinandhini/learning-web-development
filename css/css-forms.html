@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="./stylesheets/forms.css">
+</head>
+
+<body>
+    <div>
+        <h3>Personal Information</h3>
+        <form>
+            <label for="username">Please enter your name:</label>
+            <input type="text" name="username" id="Text1" class="formstyle" required="required">
+            <label for="DOB">Date of Birth:</label>
+            <input type="date" id="DOB" name="DOB" class="formstyle">
+            <label for="email">Please enter your email:</label>
+            <input type="email" id="email" name="email" class="formstyle">
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" class="formstyle" name="pwd" pattern=".{8,}">
+            <label for="you" align="right">Tell us about yourself:</label>
+            <textarea name="you" rows="5" cols="20" maxlength="180"
+            placeholder="Maximum number of characters is 180"></textarea>
+            <label for="pic">Please upload your picture:</label>
+            <input type="file" name="pic" class="formstyle">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <ul id="nav">
+        <li id="Prev"><a href="./image-gallery.html"></a></li>
+        <li id="Home"><a href="./index-css.html"></a></li>
+        <li id="Next"><a href="./index-css.html"></a></li>
+    </ul>
+</body>
+
+</html>
