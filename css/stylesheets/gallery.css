@@ -1,15 +1,17 @@
-div.flower{
+div.flower {
     margin: 5px;
-    float:left;
+    float: left;
     width: 180px;
     border: 1px solid #dddddd;
-    max-height:50%;
+    max-height: 50%;
 }
-div.flower > a {
+
+div.flower>a {
     height: 125px;
     display: block;
     overflow: hidden;
 }
+
 div img {
     width: 100%;
     height: auto;
@@ -25,28 +27,31 @@ p {
     padding: 5px;
 }
 
-#nav li{
+#nav li {
     list-style: none;
     position: absolute;
-    bottom:2%;
-    }
-#nav li, #nav a{
+    bottom: 2%;
+}
+
+#nav li, #nav a {
     display: block;
     height: 44px;
-    }
-#Prev{
-    left:25%;
-    width:42px;
+}
+
+#Prev {
+    left: 25%;
+    width: 42px;
     background: url('../img/img_navsprites.gif') -48px 0;
 }
 
-#Home{
-    left:50%;
-    width:46px;
+#Home {
+    left: 50%;
+    width: 46px;
     background: url('../img/img_navsprites.gif') 0 0;
- }
-#Next{
-    left:75%;
-    width:43px;
+}
+
+#Next {
+    left: 75%;
+    width: 43px;
     background: url('../img/img_navsprites.gif')-91px 0;
 }
