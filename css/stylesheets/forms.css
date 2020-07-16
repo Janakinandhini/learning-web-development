@@ -1,0 +1,79 @@
+div {
+    border: 2px solid #666666;
+    color: #888888;
+    padding: 10px 20px;
+    height:100%;
+    max-width: 80%;
+    margin: 0 10%;
+    border-radius: 5px;
+    }
+h3{
+    font-family:Calibri;
+    text-align: center;
+    height: 20px;
+}
+input:focus{
+    border: 2px solid #666666;
+}
+input[type=text], input[type=email], input[type=password], input[type=file] {
+    width:99%;
+    margin: 5px 5px;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    padding: 12px 3px;
+    box-sizing: border-box;
+}
+
+input[type=date],textarea {
+    width: 20%;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    display: block;
+    resize: none;
+}
+
+input[type=submit]{
+    background-color: #0000bb;
+    border:none;
+    color:#ffffff;
+    text-decoration: none;
+    padding:15px 25px;
+    margin:0 50%;
+    border-radius: 4px;
+}
+
+label {
+    font-family: Arial;
+    font-size: 15px;
+}
+
+#nav li {
+    list-style: none;
+    position: absolute;
+    bottom: 1%;
+}
+
+#nav li, #nav a {
+    display: block;
+    height: 44px;
+}
+
+#Prev {
+    left: 25%;
+    width: 42px;
+    background: url('../img/img_navsprites.gif') -48px 0;
+}
+
+#Home {
+    left: 50%;
+    width: 46px;
+    background: url('../img/img_navsprites.gif') 0 0;
+}
+
+#Next {
+    left: 75%;
+    width: 43px;
+    background: url('../img/img_navsprites.gif')-91px 0;
+}
