@@ -20,8 +20,7 @@ li:hover {
 }
 
 li>a:hover {
-    text-transform: uppercase;
-    color: #ffffff;
+    background-color: #ffc0c6;
 
 }
 
@@ -41,9 +40,8 @@ input[type=search] {
     border: 1px solid #858585;
     border-radius: 4px;
 }
-nav {
-    margin:0;
-    padding:0;
+nav>a {
+    padding:0 10px;
     background-color: #000000;
 }
 a[target="_blank"]:hover {
