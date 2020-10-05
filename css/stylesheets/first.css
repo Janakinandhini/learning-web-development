@@ -1,0 +1,30 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: violet;
+    font-size: 50px;
+    transition-property: font-size;
+    transition-duration: 5s;
+}
+
+a {
+    display: inline-block;
+    margin: 1%;
+    width: auto;
+    padding: 14px 25px;
+    text-align: center;
+    background-color: lightblue;
+    text-decoration: none;
+    transition-property: background-color;
+    transition-duration: 10s;
+}
+
+a[target="_blank"] {
+    background-color: pink;
+}

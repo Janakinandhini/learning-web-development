@@ -1,8 +1,15 @@
 body {
-    margin:2%;
+    margin: 2%;
     padding: 0 70px;
-    width:auto;
+    width: auto;
+    counter-reset: section;
 }
+
+li::before {
+    counter-increment: section;
+    content: "Concept " counter(section) ": ";
+}
+
 li {
     margin: 10px;
     padding: 10px;
@@ -15,19 +22,20 @@ li {
     padding: 1%;
     margin: 10px 20px;
 }
+
 li:hover {
-    opacity:0.4;
+    opacity: 0.4;
 }
 
 li>a:hover {
     background-color: #ffc0c6;
-
+    color: #008000;
 }
 
 li, a {
     font-size: xx-large;
     text-decoration: none;
-    color:#ffffff;
+    color: #ffffff;
     display: inline-block;
 }
 
@@ -40,10 +48,12 @@ input[type=search] {
     border: 1px solid #858585;
     border-radius: 4px;
 }
+
 nav>a {
-    padding:0 10px;
+    padding: 0 10px;
     background-color: #000000;
 }
+
 a[target="_blank"]:hover {
     background-color: #008000;
 }
